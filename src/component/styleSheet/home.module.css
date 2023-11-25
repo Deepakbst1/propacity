@@ -1,0 +1,22 @@
+/* Base styles for larger screens (Web-1920) */
+.home {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh; 
+    padding: 35px 15px;
+}
+
+@media (max-width: 1200px) {
+    .home {
+        padding: 25px 10px; 
+    }
+}
+@media (max-width: 800px) {
+    .home {
+        flex-direction: column;
+        align-items: center; 
+        padding: 20px; 
+    }
+}
